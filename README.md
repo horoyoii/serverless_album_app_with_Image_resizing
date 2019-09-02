@@ -1,6 +1,14 @@
 # serverless_album_app_with_Image_resizing
 FaaS를 통한 서버리스 앨범 앱 with 이미지 리사이징
 <br/><br/><br/>
+## Contents
+- [시나리오](#시나리오)
+- [데모영상](#데모영상)
+- [스크린샷](#스크린샷)
+- [How to Implement](#How_to_Implement)
+
+<br/><br/><br/>
+
 ## 시나리오
 
 ![Untitled Diagram (3)](https://user-images.githubusercontent.com/34915108/64122222-f0067e00-cddb-11e9-84c3-cddd63100f71.png)
@@ -13,7 +21,7 @@ s3와 aws lamdba를 연결시켜 "s3에 파일이 업로드되었음!" 라는 �
 s3에 다시 저장하는 작업을 수행한다. 
 
 <br/><br/><br/>
-## 데모 영상
+## 데모영상
 [Youtube link](https://www.youtube.com/watch?v=XmVl7ZWWMXs)
 
 
@@ -32,6 +40,7 @@ s3에 다시 저장하는 작업을 수행한다.
 
 
 <br/><br/><br/>
+
 ## How to Implement
 
 ### 1.aws IAM을 통한 aws lambda와 aws s3 연결 방법
